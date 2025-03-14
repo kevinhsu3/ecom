@@ -1,0 +1,17 @@
+[project]
+name = "ecom"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kevin Hsu",email = "kevinhsu1999@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "django (==2.2.4)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
